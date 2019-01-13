@@ -1,0 +1,14 @@
+body {
+  overflow-x: hidden;
+  background-image: url("../image/pageBG@1X.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+ul li {
+  list-style: none; }
+
+#home .container-fluid {
+  background-color: black; }
+
+.navbar-brand h3 {
+  color: white; }

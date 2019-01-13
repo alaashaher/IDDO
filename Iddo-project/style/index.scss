@@ -1,0 +1,12 @@
+
+body {
+  overflow-x: hidden;
+  background-image: url('../image/pageBG@1X.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul li {
+  list-style: none;
+}
+
+@import './header.scss';
