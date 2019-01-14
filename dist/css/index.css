@@ -17,7 +17,8 @@ ul li {
     background: #333;
     color: #fff;
     padding: 10px;
-    width: 150px; }
+    width: 150px;
+    display: none; }
   .option-box .color-option ul li {
     width: 20px;
     height: 20px;
@@ -32,6 +33,22 @@ ul li {
 
 #home .navbar-toggler {
   left: 50%; }
+
+#home .header-contain {
+  background-color: #666666;
+  height: 400px;
+  padding: 10% 20%; }
+  #home .header-contain img {
+    float: left;
+    padding-right: 50px; }
+  #home .header-contain p {
+    font-size: 30px;
+    font-weight: 100;
+    color: white; }
+  #home .header-contain .firstp {
+    margin-top: 26px; }
+  #home .header-contain .cilck {
+    font-size: 15px; }
 
 .navbar-brand h3 {
   color: white; }
@@ -58,7 +75,7 @@ ul li {
       margin-left: 90%;
       margin-top: -57px; } }
 
-.nav-link:hover, .signup {
+.nav-link:hover, .signup, .cilck {
   color: #42b8dd !important; }
 
 .signup {

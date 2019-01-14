@@ -11,6 +11,7 @@
 		color: #fff;
 		padding: 10px;
 		width: 150px;
+    display: none;
 	}
 	.color-option ul li{
 		width: 20px;
@@ -30,6 +31,26 @@
   }
   .navbar-toggler {
     left: 50%;
+  }
+  .header-contain  {
+    background-color: #666666;
+    height: 400px;
+    padding: 10% 20%;
+    img {
+      float: left;
+      padding-right: 50px;
+    }
+    p {
+      font-size: 30px;
+      font-weight: 100;
+      color: rgb(255, 255, 255);
+    }
+    .firstp {
+      margin-top: 26px;
+    }
+    .cilck {
+      font-size: 15px;
+    }
   }
 }
 .navbar-brand {
