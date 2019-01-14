@@ -1,4 +1,12 @@
 //- start header
+//- color option
+section(class="option-box")
+  div(class="color-option")
+    h4 Color Option
+    ul(class="list-unstyled")
+      li(data-value="css/blue-theme.css")
+  i(class="fas fa-cogs fa-gear gear-check fa-3x")
+    
 header#home
   //- start nav bar
   div.container-fluid
@@ -8,7 +16,20 @@ header#home
         button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
               aria-expanded="false" aria-label="Toggle navigation")
           span(class="navbar-toggler-icon")
-
+      
+      div(class="collapse navbar-collapse" id="navbarSupportedContent")
+        ul(class="navbar-nav mr-auto")
+          li(class="nav-item active")
+            a(class="nav-link" href="#") Home
+          li(class="nav-item")
+            a(class="nav-link" href="#downloads") Services
+          li(class="nav-item")
+            a(class="nav-link" href="#portfolio") Portfolio
+          li(class="nav-item")
+            a(class="nav-link" href="#about") About
+          li(class="nav-item")
+            a(class="nav-link" href="#contact") Contact
   
           
+      button(class="btn btn-outline-light signup") Sign up
 //- end Header

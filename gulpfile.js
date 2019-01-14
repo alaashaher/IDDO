@@ -5,9 +5,13 @@ const watch = require('gulp-watch');
 const autoprefixer = require('gulp-autoprefixer');
 const connect = require('gulp-connect');
 const concat = require('gulp-concat');
-
+// gulp.task('sass', function () {
+//   return gulp.src('Iddo-project/style/blue-theme.scss')
+//     .pipe(sass.sync().on('error', sass.logError))
+//     .pipe(gulp.dest('dist/css/blue-theme.css'));
+// });
 gulp.task('sass', function () {
-  return gulp.src('Iddo-project/style/index.scss')
+  return gulp.src('Iddo-project/style/*.scss')
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(gulp.dest('dist/css'));
 });
