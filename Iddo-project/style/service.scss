@@ -1,0 +1,46 @@
+#service {
+  height: 400px;
+  .container-fluid {
+    padding: 8% 14%;
+    .left{
+      h1{
+        width: 20%;
+        color: rgb(255, 255, 255) !important;
+        font-weight: bolder;
+        font-size: 50px !important;
+      }
+      .line {
+        width: 87%;
+        margin-left: 0px;
+        height: 5px;
+        margin-top: -10px;
+        background-color:rgb(255, 255, 255) !important;
+        border-color:rgb(255, 255, 255) !important;
+      }
+    }
+    .feture{
+      height: 50%;
+      .feture-icon {
+        padding-right: 19%;
+        padding-left: 6%;
+        padding-top: 11%;
+        padding-bottom: 9%;
+        border: 2px solid white;
+        border-radius: 50%;
+        width: 14%;
+        height: 100%;
+        float: left;
+      }
+      .feture-desc  {
+        color:rgb(255, 255, 255) !important;
+        margin-left: 93px;
+        p {
+          font-size: 13px !important;
+        }
+        h4:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

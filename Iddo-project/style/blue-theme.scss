@@ -1,6 +1,9 @@
 %mainBuleColor {
   color: #42b8dd !important;
 }
+%mainBuleBackGroundColor {
+  background-color: #42b8dd !important;
+}
 %borderBuleColor {
   border: 1px solid #42b8dd;
 }
@@ -14,4 +17,7 @@
 }
 .cilck {
   @extend %mainBuleColor;
+}
+#service {
+  @extend %mainBuleBackGroundColor;
 }
