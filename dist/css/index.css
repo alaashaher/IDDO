@@ -122,7 +122,13 @@ ul li {
       #service .container-fluid .feture-div .row .feture .feture-desc h4:hover {
         text-decoration: underline; }
 
-.nav-link:hover, .signup, .cilck {
+#icons .container-fluid {
+  padding: 2% 8%;
+  text-align: center; }
+  #icons .container-fluid .icon .icon-class {
+    font-size: 35px !important; }
+
+.nav-link:hover, .signup, .cilck, .icon-class {
   color: #42b8dd !important; }
 
 #service {
