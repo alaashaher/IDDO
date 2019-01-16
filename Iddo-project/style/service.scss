@@ -1,5 +1,4 @@
 #service {
-  height: 400px;
   .container-fluid {
     padding: 8% 14%;
     .left{
@@ -16,10 +15,14 @@
         margin-top: -10px;
         background-color:rgb(255, 255, 255) !important;
         border-color:rgb(255, 255, 255) !important;
+        @media only screen and (min-width: 300px) and (max-width: 991px) {
+          width: 38%;
+        }
       }
     }
-    .feture{
+    .feture-div .row .feture {
       height: 50%;
+      margin-top: 32px;
       .feture-icon {
         padding-right: 19%;
         padding-left: 6%;
@@ -30,10 +33,19 @@
         width: 14%;
         height: 100%;
         float: left;
+        @media only screen and (min-width: 300px) and (max-width: 991px) {
+          width: 82px;
+          height: 79px;
+          padding: 20px 20px;
+          margin-top: 20px;
+        }
       }
       .feture-desc  {
         color:rgb(255, 255, 255) !important;
         margin-left: 93px;
+        @media only screen and (min-width: 300px) and (max-width: 991px) {
+          margin-top: 34px;
+        }
         p {
           font-size: 13px !important;
         }

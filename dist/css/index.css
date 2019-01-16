@@ -75,41 +75,52 @@ ul li {
       margin-left: 90%;
       margin-top: -57px; } }
 
-#service {
-  height: 400px; }
-  #service .container-fluid {
-    padding: 8% 14%; }
-    #service .container-fluid .left h1 {
-      width: 20%;
+#service .container-fluid {
+  padding: 8% 14%; }
+  #service .container-fluid .left h1 {
+    width: 20%;
+    color: white !important;
+    font-weight: bolder;
+    font-size: 50px !important; }
+  #service .container-fluid .left .line {
+    width: 87%;
+    margin-left: 0px;
+    height: 5px;
+    margin-top: -10px;
+    background-color: white !important;
+    border-color: white !important; }
+    @media only screen and (min-width: 300px) and (max-width: 991px) {
+      #service .container-fluid .left .line {
+        width: 38%; } }
+  #service .container-fluid .feture-div .row .feture {
+    height: 50%;
+    margin-top: 32px; }
+    #service .container-fluid .feture-div .row .feture .feture-icon {
+      padding-right: 19%;
+      padding-left: 6%;
+      padding-top: 11%;
+      padding-bottom: 9%;
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 14%;
+      height: 100%;
+      float: left; }
+      @media only screen and (min-width: 300px) and (max-width: 991px) {
+        #service .container-fluid .feture-div .row .feture .feture-icon {
+          width: 82px;
+          height: 79px;
+          padding: 20px 20px;
+          margin-top: 20px; } }
+    #service .container-fluid .feture-div .row .feture .feture-desc {
       color: white !important;
-      font-weight: bolder;
-      font-size: 50px !important; }
-    #service .container-fluid .left .line {
-      width: 87%;
-      margin-left: 0px;
-      height: 5px;
-      margin-top: -10px;
-      background-color: white !important;
-      border-color: white !important; }
-    #service .container-fluid .feture {
-      height: 50%; }
-      #service .container-fluid .feture .feture-icon {
-        padding-right: 19%;
-        padding-left: 6%;
-        padding-top: 11%;
-        padding-bottom: 9%;
-        border: 2px solid white;
-        border-radius: 50%;
-        width: 14%;
-        height: 100%;
-        float: left; }
-      #service .container-fluid .feture .feture-desc {
-        color: white !important;
-        margin-left: 93px; }
-        #service .container-fluid .feture .feture-desc p {
-          font-size: 13px !important; }
-        #service .container-fluid .feture .feture-desc h4:hover {
-          text-decoration: underline; }
+      margin-left: 93px; }
+      @media only screen and (min-width: 300px) and (max-width: 991px) {
+        #service .container-fluid .feture-div .row .feture .feture-desc {
+          margin-top: 34px; } }
+      #service .container-fluid .feture-div .row .feture .feture-desc p {
+        font-size: 13px !important; }
+      #service .container-fluid .feture-div .row .feture .feture-desc h4:hover {
+        text-decoration: underline; }
 
 .nav-link:hover, .signup, .cilck {
   color: #42b8dd !important; }
