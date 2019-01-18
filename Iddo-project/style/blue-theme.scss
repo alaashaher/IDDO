@@ -15,12 +15,15 @@
   @extend %mainBuleColor;
   @extend %borderBuleColor;
 }
-.cilck {
+.cilck , .subscribe {
   @extend %mainBuleColor;
 }
-#service {
+#service, #subscribe, .subscribe:hover , .subscribe-input {
   @extend %mainBuleBackGroundColor;
 }
 .icon-class , .navbar-light .navbar-nav .active>.nav-link:hover {
   @extend %mainBuleColor;
+}
+.subscribe:hover , .subscribe-input{
+  @extend %borderBuleColor;
 }

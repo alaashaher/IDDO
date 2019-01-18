@@ -1,0 +1,29 @@
+#subscribe {
+  .container-fluid {
+    padding: 1% 27%;
+    div {
+      display: inline-flex;
+      input {
+        color: rgb(255, 255, 255);
+        padding: 9px;
+        outline: none;
+        width: 299px;
+      }
+      input:hover {
+        outline: white 1px solid;
+      }
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(255, 255, 255);
+        opacity: 1; /* Firefox */
+      }
+      .subscribe {
+        background-color: rgb(255, 255, 255);
+        margin-left: 112px;
+      }
+      .subscribe:hover {
+        border-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255) !important;
+      }
+    }
+  }
+}

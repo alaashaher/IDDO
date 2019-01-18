@@ -1,10 +1,10 @@
-.nav-link:hover, .signup, .cilck, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
+.nav-link:hover, .signup, .cilck, .subscribe, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
   color: #42b8dd !important; }
 
-#service {
+#service, #subscribe, .subscribe:hover, .subscribe-input {
   background-color: #42b8dd !important; }
 
-.signup {
+.signup, .subscribe:hover, .subscribe-input {
   border: 1px solid #42b8dd; }
 
 .nav-link:hover {

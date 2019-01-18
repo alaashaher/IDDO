@@ -168,13 +168,36 @@ ul li {
       color: white;
       font-weight: bold; }
 
-.nav-link:hover, .signup, .cilck, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
+#subscribe .container-fluid {
+  padding: 1% 27%; }
+  #subscribe .container-fluid div {
+    display: inline-flex; }
+    #subscribe .container-fluid div input {
+      color: white;
+      padding: 9px;
+      outline: none;
+      width: 299px; }
+    #subscribe .container-fluid div input:hover {
+      outline: white 1px solid; }
+    #subscribe .container-fluid div ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: white;
+      opacity: 1;
+      /* Firefox */ }
+    #subscribe .container-fluid div .subscribe {
+      background-color: white;
+      margin-left: 112px; }
+    #subscribe .container-fluid div .subscribe:hover {
+      border-color: white;
+      color: white !important; }
+
+.nav-link:hover, .signup, .cilck, .subscribe, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
   color: #42b8dd !important; }
 
-#service {
+#service, #subscribe, .subscribe:hover, .subscribe-input {
   background-color: #42b8dd !important; }
 
-.signup {
+.signup, .subscribe:hover, .subscribe-input {
   border: 1px solid #42b8dd; }
 
 .nav-link:hover {
