@@ -1,4 +1,4 @@
-.nav-link:hover, .signup, .cilck, .icon-class {
+.nav-link:hover, .signup, .cilck, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
   color: #42b8dd !important; }
 
 #service {

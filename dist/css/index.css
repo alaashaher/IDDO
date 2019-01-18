@@ -75,6 +75,9 @@ ul li {
       margin-left: 90%;
       margin-top: -57px; } }
 
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white !important; }
+
 #service .container-fluid {
   padding: 8% 14%; }
   #service .container-fluid .left h1 {
@@ -134,7 +137,11 @@ ul li {
   #slider .container-fluid .slider-body .carousel .carousel-indicators li {
     width: 14px;
     border-radius: 50%;
-    height: 14px; }
+    height: 14px;
+    background-color: #666666;
+    border: 2px solid white; }
+  #slider .container-fluid .slider-body .carousel .carousel-indicators .active {
+    background-color: white; }
   #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption p {
     font-size: 22px; }
   #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption .image {
@@ -146,7 +153,22 @@ ul li {
   #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption h3 {
     padding: 2% 0%; }
 
-.nav-link:hover, .signup, .cilck, .icon-class {
+#workIcon {
+  background-color: #666666; }
+  #workIcon .container-fluid {
+    padding: 5% 0%; }
+  #workIcon .work-icon {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    #workIcon .work-icon h1 {
+      color: white;
+      font-size: 80px;
+      margin: 5% 0%; }
+    #workIcon .work-icon h6 {
+      color: white;
+      font-weight: bold; }
+
+.nav-link:hover, .signup, .cilck, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
   color: #42b8dd !important; }
 
 #service {

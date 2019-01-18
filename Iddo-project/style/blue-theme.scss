@@ -21,6 +21,6 @@
 #service {
   @extend %mainBuleBackGroundColor;
 }
-.icon-class {
+.icon-class , .navbar-light .navbar-nav .active>.nav-link:hover {
   @extend %mainBuleColor;
 }

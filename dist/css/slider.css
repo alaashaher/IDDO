@@ -4,7 +4,11 @@
   #slider .container-fluid .slider-body .carousel .carousel-indicators li {
     width: 14px;
     border-radius: 50%;
-    height: 14px; }
+    height: 14px;
+    background-color: #666666;
+    border: 2px solid white; }
+  #slider .container-fluid .slider-body .carousel .carousel-indicators .active {
+    background-color: white; }
   #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption p {
     font-size: 22px; }
   #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption .image {

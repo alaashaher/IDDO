@@ -66,3 +66,6 @@
     .signup {
       margin-left: 90%;
       margin-top: -57px; } }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white !important; }
