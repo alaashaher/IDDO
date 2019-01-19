@@ -1,7 +1,11 @@
 #slider {
+  @media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+		width: 106%;
+	}
+  background-color: #666666;
   .container-fluid {
     padding: 0px;
-    width: 102.5%;
+    width: 103%;
     .slider-body {
       .carousel {
         .carousel-indicators li {
@@ -16,6 +20,9 @@
         }
         .carousel-inner {
           .carousel-item {
+            img {
+              height: 300px;
+            }
             .carousel-caption {
               p {
                 font-size: 22px;

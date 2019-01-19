@@ -1,3 +1,7 @@
+@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+  #service {
+    width: 106%; } }
+
 #service .container-fluid {
   padding: 8% 14%; }
   #service .container-fluid .left h1 {

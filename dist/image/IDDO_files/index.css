@@ -27,10 +27,6 @@ ul li {
   .option-box .gear-check {
     padding: 5px; }
 
-@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
-  #home {
-    width: 106%; } }
-
 #home .container-fluid {
   background-color: black;
   padding: 0% 7%; }
@@ -82,10 +78,6 @@ ul li {
 .navbar-light .navbar-nav .active > .nav-link {
   color: white !important; }
 
-@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
-  #service {
-    width: 106%; } }
-
 #service .container-fluid {
   padding: 8% 14%; }
   #service .container-fluid .left h1 {
@@ -133,50 +125,36 @@ ul li {
       #service .container-fluid .feture-div .row .feture .feture-desc h4:hover {
         text-decoration: underline; }
 
-@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
-  #icons {
-    width: 106%; } }
-
 #icons .container-fluid {
   padding: 2% 8%;
   text-align: center; }
   #icons .container-fluid .icon .icon-class {
     font-size: 35px !important; }
 
-#slider {
-  background-color: #666666; }
-  @media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
-    #slider {
-      width: 106%; } }
-  #slider .container-fluid {
-    padding: 0px;
-    width: 103%; }
-    #slider .container-fluid .slider-body .carousel .carousel-indicators li {
-      width: 14px;
-      border-radius: 50%;
-      height: 14px;
-      background-color: #666666;
-      border: 2px solid white; }
-    #slider .container-fluid .slider-body .carousel .carousel-indicators .active {
-      background-color: white; }
-    #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item img {
-      height: 300px; }
-    #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption p {
-      font-size: 22px; }
-    #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption .image {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background-color: #cccccc;
-      margin-left: 47%; }
-    #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption h3 {
-      padding: 2% 0%; }
+#slider .container-fluid {
+  padding: 0px;
+  width: 102.5%; }
+  #slider .container-fluid .slider-body .carousel .carousel-indicators li {
+    width: 14px;
+    border-radius: 50%;
+    height: 14px;
+    background-color: #666666;
+    border: 2px solid white; }
+  #slider .container-fluid .slider-body .carousel .carousel-indicators .active {
+    background-color: white; }
+  #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 22px; }
+  #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption .image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    margin-left: 47%; }
+  #slider .container-fluid .slider-body .carousel .carousel-inner .carousel-item .carousel-caption h3 {
+    padding: 2% 0%; }
 
 #workIcon {
   background-color: #666666; }
-  @media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
-    #workIcon {
-      width: 106%; } }
   #workIcon .container-fluid {
     padding: 5% 0%; }
   #workIcon .work-icon {
@@ -189,10 +167,6 @@ ul li {
     #workIcon .work-icon h6 {
       color: white;
       font-weight: bold; }
-
-@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
-  #subscribe {
-    width: 106%; } }
 
 #subscribe .container-fluid {
   padding: 1% 27%; }
@@ -216,26 +190,6 @@ ul li {
     #subscribe .container-fluid div .subscribe:hover {
       border-color: white;
       color: white !important; }
-
-#logos {
-  background-color: #7f7f7f; }
-  #logos .container-fluid {
-    background-color: #7f7f7f;
-    padding: 2% 0%;
-    margin-left: 55px; }
-    @media (min-width: 300px) and (max-width: 730px) {
-      #logos .container-fluid {
-        margin-left: 50px; } }
-    #logos .container-fluid .logo {
-      margin-left: 13px; }
-      #logos .container-fluid .logo .logo-class {
-        background-color: #a6a6a6;
-        padding: 9%;
-        width: 300px;
-        height: 100px; }
-        #logos .container-fluid .logo .logo-class img {
-          width: 100%;
-          height: 100%; }
 
 .nav-link:hover, .signup, .cilck, .subscribe, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
   color: #42b8dd !important; }

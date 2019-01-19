@@ -1,0 +1,19 @@
+#logos {
+  background-color: #7f7f7f; }
+  #logos .container-fluid {
+    background-color: #7f7f7f;
+    padding: 2% 0%;
+    margin-left: 55px; }
+    @media (min-width: 300px) and (max-width: 730px) {
+      #logos .container-fluid {
+        margin-left: 50px; } }
+    #logos .container-fluid .logo {
+      margin-left: 13px; }
+      #logos .container-fluid .logo .logo-class {
+        background-color: #a6a6a6;
+        padding: 9%;
+        width: 300px;
+        height: 100px; }
+        #logos .container-fluid .logo .logo-class img {
+          width: 100%;
+          height: 100%; }

@@ -1,3 +1,7 @@
+@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+  #icons {
+    width: 106%; } }
+
 #icons .container-fluid {
   padding: 2% 8%;
   text-align: center; }

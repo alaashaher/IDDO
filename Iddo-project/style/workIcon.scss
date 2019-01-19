@@ -1,4 +1,7 @@
 #workIcon {
+  @media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+		width: 106%;
+	}
   background-color: #666666;
   .container-fluid {
     padding: 5% 0%;

@@ -25,6 +25,9 @@
 }
 
 #home {
+	@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+		width: 106%;
+	}
   .container-fluid {
     background-color: rgb(0, 0, 0);
     padding: 0% 7%;

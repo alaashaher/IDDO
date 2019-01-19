@@ -19,6 +19,10 @@
   .option-box .gear-check {
     padding: 5px; }
 
+@media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+  #home {
+    width: 106%; } }
+
 #home .container-fluid {
   background-color: black;
   padding: 0% 7%; }

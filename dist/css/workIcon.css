@@ -1,5 +1,8 @@
 #workIcon {
   background-color: #666666; }
+  @media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+    #workIcon {
+      width: 106%; } }
   #workIcon .container-fluid {
     padding: 5% 0%; }
   #workIcon .work-icon {

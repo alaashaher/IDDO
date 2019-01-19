@@ -1,4 +1,7 @@
 #subscribe {
+  @media (min-width: 300px) and (max-width: 991px) and (width: 1024px) {
+		width: 106%;
+	}
   .container-fluid {
     padding: 1% 27%;
     div {
