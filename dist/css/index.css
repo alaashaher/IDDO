@@ -230,14 +230,79 @@ ul li {
       margin-left: 13px; }
       #logos .container-fluid .logo .logo-class {
         background-color: #a6a6a6;
-        padding: 9%;
+        padding: 13% 9%;
         width: 300px;
         height: 100px; }
         #logos .container-fluid .logo .logo-class img {
           width: 100%;
           height: 100%; }
 
-.nav-link:hover, .signup, .cilck, .subscribe, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
+#footer {
+  background-color: #ebebeb; }
+  #footer .container-fluid {
+    width: 103%; }
+    #footer .container-fluid .footer-header {
+      width: 50%;
+      padding: 88px; }
+      #footer .container-fluid .footer-header h1 {
+        font-size: 88px;
+        color: #363636;
+        font-weight: 700;
+        line-height: 55px; }
+      #footer .container-fluid .footer-header p {
+        color: #898989; }
+      #footer .container-fluid .footer-header hr {
+        color: #363636;
+        background-color: #363636;
+        height: 10px;
+        width: 300px;
+        margin-left: 0%; }
+    #footer .container-fluid .copyright {
+      background-color: #252525;
+      padding: 2%; }
+      #footer .container-fluid .copyright h2 {
+        color: white; }
+      #footer .container-fluid .copyright p {
+        color: #505050; }
+
+.siteForm {
+  padding-bottom: 30px; }
+
+.siteForm input {
+  outline: none;
+  border: 2px solid #363636;
+  background-color: #ebebeb;
+  color: #fff;
+  padding-left: 2%;
+  width: 49%;
+  height: 50px;
+  margin-left: 20px; }
+
+textarea {
+  outline: none;
+  border: 2px solid #363636;
+  background-color: #ebebeb;
+  color: #fff;
+  padding-left: 2% !important;
+  padding-top: 2% !important;
+  width: 100% !important;
+  margin-top: 10px;
+  height: 100px;
+  margin-left: 20px; }
+
+.sendMessage {
+  padding: 1.5% 4%;
+  background-color: #30bae7;
+  color: #ffffff; }
+
+.sendMessage:hover {
+  background-color: #fff;
+  color: #30bae7; }
+
+.sendMessagebtn {
+  margin-top: 20px; }
+
+.nav-link:hover, .signup, .cilck, .subscribe, .up-home, .icon-class, .navbar-light .navbar-nav .active > .nav-link:hover {
   color: #42b8dd !important; }
 
 #service, #subscribe, .subscribe:hover, .subscribe-input {
