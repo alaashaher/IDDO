@@ -1,0 +1,45 @@
+#ourSkills {
+  padding: 6% 12%; }
+  #ourSkills .container-fluid h1 {
+    color: #363636;
+    width: 30%;
+    font-weight: bolder;
+    font-size: 50px !important; }
+  #ourSkills .container-fluid .line {
+    width: 30%;
+    margin-left: 0px;
+    height: 5px;
+    margin-top: -10px;
+    background-color: #363636 !important;
+    border-color: #363636 !important; }
+    @media only screen and (min-width: 300px) and (max-width: 991px) {
+      #ourSkills .container-fluid .line {
+        width: 38%; } }
+  #ourSkills .container-fluid .skills-item .skills-desc p {
+    font-size: 12px;
+    color: #6f6f6f; }
+
+.chart {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  font-weight: 300; }
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+span {
+  display: block;
+  line-height: 125px;
+  text-align: center;
+  width: 165px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: -17px; }
+
+.progserCircle {
+  padding: 5% 0%; }
