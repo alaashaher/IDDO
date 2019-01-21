@@ -5,6 +5,8 @@
     #footer .container-fluid .footer-header {
       width: 50%;
       padding: 88px; }
+      #footer .container-fluid .footer-header .footer-icon .fab {
+        margin-left: 10px; }
       #footer .container-fluid .footer-header h1 {
         font-size: 88px;
         color: #363636;
@@ -27,7 +29,8 @@
         color: #505050; }
 
 .siteForm {
-  padding-bottom: 30px; }
+  padding-bottom: 120px;
+  padding-left: 64px; }
 
 .siteForm input {
   outline: none;
@@ -38,6 +41,9 @@
   width: 49%;
   height: 50px;
   margin-left: 20px; }
+
+.fa-check-circle:before {
+  margin-right: 20px; }
 
 textarea {
   outline: none;
@@ -52,13 +58,14 @@ textarea {
   margin-left: 20px; }
 
 .sendMessage {
-  padding: 1.5% 4%;
-  background-color: #30bae7;
-  color: #ffffff; }
+  padding: 5.5% 20%;
+  background-color: #ffffff;
+  font-weight: bold; }
 
 .sendMessage:hover {
   background-color: #fff;
   color: #30bae7; }
 
 .sendMessagebtn {
-  margin-top: 20px; }
+  margin-top: 90px;
+  margin-left: -20%; }

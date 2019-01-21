@@ -15,7 +15,7 @@
   @extend %mainBuleColor;
   @extend %borderBuleColor;
 }
-.cilck , .subscribe , .up-home  {
+.cilck , .subscribe , .up-home , .sendMessage {
   @extend %mainBuleColor;
 }
 #service, #subscribe, .subscribe:hover , .subscribe-input {
@@ -26,4 +26,9 @@
 }
 .subscribe:hover , .subscribe-input{
   @extend %borderBuleColor;
+}
+.footer-icon {
+  .fab {
+    @extend %mainBuleColor;
+  }
 }
