@@ -1,0 +1,108 @@
+#team {
+  padding: 6% 12%;
+  .container-fluid {
+    h1 {
+      color: #363636;
+      width: 30%;
+      font-weight: bolder;
+      font-size: 50px !important;
+    }
+    .line{
+      width: 30%;
+      margin-left: 0px;
+      height: 5px;
+      margin-top: -10px;
+      background-color: #363636 !important;
+      border-color: #363636 !important;
+      @media only screen and (min-width: 300px) and (max-width: 991px) {
+        width: 38%;
+      }
+    }
+    .team-body {
+      .team-body-items {
+        margin-top: 40px;
+        .team-body-item {
+          .team-description {
+            margin-top: 30px;
+            text-align: left;
+            margin-left: 120px;
+            h4 {
+              a{
+                font-size: 18px !important;
+              }
+            }
+            h6 {
+              a {
+                color: rgba(137, 137, 137, 255);
+              }
+            }
+            P {
+              color: rgba(54, 54, 54, 255);
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.team-image {
+  height: 150px;
+  width: 150px;
+  margin-left: 15%;
+  .icon {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    padding: 3.5% 4.5%;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    color: #fff;
+    margin-top: -109px;
+    margin-left: 23%;
+  }
+  .icon:hover {
+    cursor: pointer;
+  }
+  .icon2 {
+    margin-left: 37%;
+  }
+  .icon3 {
+    margin-left: 52%;
+  }
+}
+.team {
+  position: absolute;
+  margin-left: -15%;
+  margin-top: -44%;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  opacity: 0
+}
+.team-image a:hover .team {
+  transition: all .7s ease-in-out;
+  opacity: 1;
+}
+@media (min-width:768px) and (max-width:991px) {
+  .team-image {
+    margin-top: 5%;
+    margin-left: 21%;
+  }
+  .team {
+    margin-top: -36%;
+    margin-left: -10%;
+  }
+}
+@media (max-width:767px){
+  .team-image {
+    margin-top: 5%;
+    margin-left: 33%;
+  }
+  .team {
+    margin-top: -19%;
+    margin-left: -3%;
+  }
+}

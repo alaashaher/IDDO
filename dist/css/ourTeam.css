@@ -1,0 +1,81 @@
+#team {
+  padding: 6% 12%; }
+  #team .container-fluid h1 {
+    color: #363636;
+    width: 30%;
+    font-weight: bolder;
+    font-size: 50px !important; }
+  #team .container-fluid .line {
+    width: 30%;
+    margin-left: 0px;
+    height: 5px;
+    margin-top: -10px;
+    background-color: #363636 !important;
+    border-color: #363636 !important; }
+    @media only screen and (min-width: 300px) and (max-width: 991px) {
+      #team .container-fluid .line {
+        width: 38%; } }
+  #team .container-fluid .team-body .team-body-items {
+    margin-top: 40px; }
+    #team .container-fluid .team-body .team-body-items .team-body-item .team-description {
+      margin-top: 30px;
+      text-align: left;
+      margin-left: 120px; }
+      #team .container-fluid .team-body .team-body-items .team-body-item .team-description h4 a {
+        font-size: 18px !important; }
+      #team .container-fluid .team-body .team-body-items .team-body-item .team-description h6 a {
+        color: #898989; }
+      #team .container-fluid .team-body .team-body-items .team-body-item .team-description P {
+        color: #363636;
+        font-size: 12px; }
+
+.team-image {
+  height: 150px;
+  width: 150px;
+  margin-left: 15%; }
+  .team-image .icon {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    padding: 3.5% 4.5%;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    color: #fff;
+    margin-top: -109px;
+    margin-left: 23%; }
+  .team-image .icon:hover {
+    cursor: pointer; }
+  .team-image .icon2 {
+    margin-left: 37%; }
+  .team-image .icon3 {
+    margin-left: 52%; }
+
+.team {
+  position: absolute;
+  margin-left: -15%;
+  margin-top: -44%;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  opacity: 0; }
+
+.team-image a:hover .team {
+  transition: all .7s ease-in-out;
+  opacity: 1; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-image {
+    margin-top: 5%;
+    margin-left: 21%; }
+  .team {
+    margin-top: -36%;
+    margin-left: -10%; } }
+
+@media (max-width: 767px) {
+  .team-image {
+    margin-top: 5%;
+    margin-left: 33%; }
+  .team {
+    margin-top: -19%;
+    margin-left: -3%; } }

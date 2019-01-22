@@ -32,3 +32,8 @@
     @extend %mainBuleColor;
   }
 }
+.team-image  {
+  .icon {
+    @extend %mainBuleBackGroundColor;
+  }
+}
