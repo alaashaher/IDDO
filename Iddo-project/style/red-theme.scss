@@ -1,0 +1,55 @@
+%mainRedColor {
+    color: #ca3c3c !important;
+  }
+  %mainRedBackGroundColor {
+    background-color: #ca3c3c !important;
+  }
+  %borderRedColor {
+    border: 1px solid #ca3c3c;
+  }
+  .nav-link:hover {
+    @extend %mainRedColor;
+    text-decoration: underline;
+  }
+  .signup {
+    @extend %mainRedColor;
+    @extend %borderRedColor;
+  }
+  .cilck , .subscribe , .up-home , .sendMessage ,span , h4 {
+    @extend %mainRedColor;
+  }
+  #service, #subscribe, .subscribe:hover , .subscribe-input {
+    @extend %mainRedBackGroundColor;
+  }
+  .icon-class , .navbar-light .navbar-nav .active>.nav-link:hover {
+    @extend %mainRedColor;
+  }
+  .subscribe:hover , .subscribe-input{
+    @extend %borderRedColor;
+  }
+  .footer-icon {
+    .fab {
+      @extend %mainRedColor;
+    }
+  }
+  .team-image  {
+    .icon {
+      @extend %mainRedBackGroundColor;
+    }
+  }
+  .tab button {
+    @extend %borderRedColor;
+    @extend %mainRedColor;
+  }
+  .tab button:hover {
+    @extend %mainRedBackGroundColor;
+    color: #fff !important;
+  }
+  .tab button.active {
+    @extend %mainRedBackGroundColor;
+    color: #fff !important;
+  }
+  .workDesc h4 {
+    @extend %mainRedColor;
+  }
+  

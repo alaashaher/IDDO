@@ -7,8 +7,11 @@ $(function(){
     //change theme color on click
     var colorli =$(".color-option ul li");
     colorli
-     .eq(0).css('backgroundColor','#009AFF');
-
+     .eq(0).css('backgroundColor','#009AFF').end()
+     .eq(1).css('backgroundColor','#1cb88b').end()
+     .eq(2).css('backgroundColor','#ca3c3c');
+      console.log('change color');
+      
    colorli.click(function(){
      $('link[href*="theme"]').attr("href",$(this).attr("data-value"));
   });

@@ -1,0 +1,55 @@
+%mainGreenColor {
+    color: #1cb88b!important;
+  }
+  %mainGreenBackGroundColor {
+    background-color: #1cb88b !important;
+  }
+  %borderGreenColor {
+    border: 1px solid #1cb88b;
+  }
+  .nav-link:hover {
+    @extend %mainGreenColor;
+    text-decoration: underline;
+  }
+  .signup {
+    @extend %mainGreenColor;
+    @extend %borderGreenColor;
+  }
+  .cilck , .subscribe , .up-home , .sendMessage ,span , h4 {
+    @extend %mainGreenColor;
+  }
+  #service, #subscribe, .subscribe:hover , .subscribe-input {
+    @extend %mainGreenBackGroundColor;
+  }
+  .icon-class , .navbar-light .navbar-nav .active>.nav-link:hover {
+    @extend %mainGreenColor;
+  }
+  .subscribe:hover , .subscribe-input{
+    @extend %borderGreenColor;
+  }
+  .footer-icon {
+    .fab {
+      @extend %mainGreenColor;
+    }
+  }
+  .team-image  {
+    .icon {
+      @extend %mainGreenBackGroundColor;
+    }
+  }
+  .tab button {
+    @extend %borderGreenColor;
+    @extend %mainGreenColor;
+  }
+  .tab button:hover {
+    @extend %mainGreenBackGroundColor;
+    color: #fff !important;
+  }
+  .tab button.active {
+    @extend %mainGreenBackGroundColor;
+    color: #fff !important;
+  }
+  .workDesc h4 {
+    @extend %mainGreenColor;
+  }
+  
