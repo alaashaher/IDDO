@@ -1,3 +1,4 @@
+// change color themes
 $(function(){
     // show color option div when click on the gear
     $('.gear-check').click(function(){
@@ -13,6 +14,23 @@ $(function(){
   });
 });
 
+// tabs 
+function opencours(evt, coursName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace("active", "");
+    }
+    document.getElementById(coursName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+
+// progesser circle 
 jQuery(document).ready(function	(){
 
     var el;

@@ -1,3 +1,4 @@
+@import './accordion-menu.scss';
 #ourSkills {
   padding: 6% 12%;
   .container-fluid {
@@ -27,6 +28,29 @@
       }
     }
   }
+}
+.p {
+  padding-left: 47px;
+  font-size: 12px;
+}
+.link {
+  color: rgba(54, 54, 54, 255);
+  background-color: #fff;
+  margin-top: 5px;
+  line-height: 20px;
+  float: left;
+}
+.link:hover{
+  text-decoration: none;
+  color: rgba(54, 54, 54, 255);;
+}
+#accordion ul li div {
+  border:1px solid rgba(29, 27, 27, 0.329);
+  margin-top: 10px;
+  border-top:1px solid rgba(29, 27, 27, 0.329) !important; 
+  border-radius: 5px;
+  color: rgba(137, 137, 137, 255);
+  font-size: 15px;
 }
 .chart {
     position:relative;

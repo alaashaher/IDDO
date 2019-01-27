@@ -37,3 +37,18 @@
     @extend %mainBuleBackGroundColor;
   }
 }
+.tab button {
+  @extend %borderBuleColor;
+  @extend %mainBuleColor;
+}
+.tab button:hover {
+  @extend %mainBuleBackGroundColor;
+  color: #fff !important;
+}
+.tab button.active {
+  @extend %mainBuleBackGroundColor;
+  color: #fff !important;
+}
+.workDesc h4 {
+  @extend %mainBuleColor;
+}
