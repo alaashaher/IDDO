@@ -131,6 +131,8 @@ ul li {
           margin-top: 34px; } }
       #service .container-fluid .feture-div .row .feture .feture-desc p {
         font-size: 13px !important; }
+      #service .container-fluid .feture-div .row .feture .feture-desc h4 {
+        color: #fff !important; }
       #service .container-fluid .feture-div .row .feture .feture-desc h4:hover {
         text-decoration: underline; }
 
@@ -547,6 +549,9 @@ span {
 .siteForm {
   padding-bottom: 120px;
   padding-left: 64px; }
+
+.input {
+  margin-top: 20px; }
 
 .siteForm input {
   outline: none;

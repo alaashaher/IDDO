@@ -46,5 +46,7 @@
           margin-top: 34px; } }
       #service .container-fluid .feture-div .row .feture .feture-desc p {
         font-size: 13px !important; }
+      #service .container-fluid .feture-div .row .feture .feture-desc h4 {
+        color: #fff !important; }
       #service .container-fluid .feture-div .row .feture .feture-desc h4:hover {
         text-decoration: underline; }

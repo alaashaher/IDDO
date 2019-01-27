@@ -32,6 +32,9 @@
   padding-bottom: 120px;
   padding-left: 64px; }
 
+.input {
+  margin-top: 20px; }
+
 .siteForm input {
   outline: none;
   border: 2px solid #363636;
